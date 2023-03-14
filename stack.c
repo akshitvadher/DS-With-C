@@ -34,3 +34,48 @@ void main()
     } while (ch!=0);
     
 }
+
+void push()
+{
+    if (top >= 4)
+    {
+        printf("\n Stack is Full.");
+    }
+    else
+    {
+        top++;
+        printf("\n Enter element ");
+        scanf("%d",a[top]);
+    }
+}
+
+void display()
+{
+    int i;
+
+    if (top == -1)
+    {
+        printf("\n Stack is Empty");
+    }
+    else
+    {
+        for ( i = top; i > -1; i--)
+        {
+            printf("%d",a[i]);
+        }
+        
+    }
+}
+
+void pop()
+{
+    if (top == -1)
+    {
+        printf("\n Stack is empty");
+    }
+    else
+    {
+       top--;
+    }
+    
+}
