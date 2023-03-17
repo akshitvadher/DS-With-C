@@ -1,6 +1,6 @@
-# DS-With-C
+# DS-with-C
 
-#stack & Queue
- stack
- queue
- circular queue
+## Stack & Queue
+ - Stack
+ - Queue
+ - circular Queue
